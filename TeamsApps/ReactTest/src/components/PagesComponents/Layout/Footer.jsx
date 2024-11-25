@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
   return (
-    <div className='w-full h-[200px] bg-slate-600'>
-
-    </div>
-  )
+    <footer class="footer">
+      &copy; LMS FOR OFFICE WORKER
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

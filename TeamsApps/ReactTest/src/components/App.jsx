@@ -21,6 +21,9 @@ import { TeamsFxContext } from "./Context";
 import config from "./sample/lib/config";
 import Home from "../Pages/Home";
 import Layout from "./PagesComponents/Layout/Layout";
+import Course from "../Pages/Course";
+import Grade from "../Pages/Grade";
+import Teacher from "../Pages/Teacher";
 
 /**
  * The main app which handles the initialization and routing
@@ -38,6 +41,9 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="/course" element={<Course />} />
+            <Route path="/grade" element={<Grade />} />
+            <Route path="/teachers" element={<Teacher />} />
           </Route>
         </Routes>
       </Router>

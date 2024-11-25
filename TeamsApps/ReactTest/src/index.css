@@ -305,6 +305,8 @@ section {
   white-space: nowrap;
 }
 
+
+
 .side-bar .profile .role {
   font-size: 1.8rem;
   color: var(--light-color);
@@ -332,6 +334,10 @@ section {
 
 .side-bar .navbar a:hover i {
   margin-right: 2.5rem;
+}
+
+.side-bar .navbar {
+  margin-top: 8.7rem;
 }
 
 .side-bar.active {
