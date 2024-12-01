@@ -30,11 +30,11 @@ import Teacher from "../Pages/Teacher";
  * of the app.
  */
 export default function App() {
-  const { loading, theme, themeString, teamsUserCredential } =
-    useTeamsUserCredential({
-      initiateLoginEndpoint: config.initiateLoginEndpoint,
-      clientId: config.clientId,
-    });
+  // const { loading, theme, themeString, teamsUserCredential } =
+  //   useTeamsUserCredential({
+  //     initiateLoginEndpoint: config.initiateLoginEndpoint,
+  //     clientId: config.clientId,
+  //   });
   return (
     <div className="">
       <Router>

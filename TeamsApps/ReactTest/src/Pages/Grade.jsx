@@ -2,7 +2,7 @@ import React from "react";
 
 function Grade() {
   return (
-    <div className="flex flex-col p-[3rem] h-[520px]">
+    <div className="flex flex-col p-[3rem] h-[520px] ml-[4rem]">
       <h1 class="heading">Grade</h1>
       <div className="grid grid-cols-5 gap-4 ">
         <p className="text-[18px] font-semibold">Course</p>
